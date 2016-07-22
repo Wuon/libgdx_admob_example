@@ -1,0 +1,13 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 176 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 42108 0 -1
+ciMethod java/lang/String <init> ([CII)V 3465 1 5641 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1177 1 1579 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2049 1 3510 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 849 1 1198 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1905 1 2457 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 937 1 1211 0 -1
+ciMethodData java/lang/Object <init> ()V 2 42108 orig 144 152 11 250 93 0 0 0 0 136 4 131 20 0 0 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 19 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2 3510 orig 144 152 11 250 93 0 0 0 0 24 15 138 20 0 0 0 0 80 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 177 101 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 3 0 1 0 160 0 0 0 255 255 255 255 0 0 0 0 7 0 1 0 0 0 0 0 data 20 0x10007 0xcb6 0x30 0x0 0x50002 0x0 0xa0005 0x0 0x2a09ca0 0xcb6 0x0 0x0 0x150002 0xcb6 0x230005 0x0 0x2a09ca0 0xcb6 0x0 0x0 oops 2
